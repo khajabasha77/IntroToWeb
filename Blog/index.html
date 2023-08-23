@@ -4,39 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link  rel="stylesheet" href="index.css"/>
 </head>
-<style>
-    img{
-        height: 200px;
-        width: 250px;
-    }
-</style>
 <body>
     <h1>Khaja's Blog</h1>
-    <a href="/about.html">About me</a>
+    <a href="about.html">About me</a>
     <h1>Intro</h1>
     <p>My name is Khaja Basha Shaik, Iam resident of  Kurnool, Andhra Pradesh. Currently Iam living in Hyderabad.</p>
-    <p>I have completed my graduation in BSc Computer Science. Iam Currently working as frontend developer at Technoidentity.</p>
-    <div class="">
-        <h1>Blog Post</h1>
-        <h3>Lorem, ipsum dolor</h3>
-        <h4>Khaja</h4>
-        <h4>March 07</h4>
-        <img src="data:image/jpeg;base64,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" alt="cat1"
+    <p>I have completed my graduation in BSc Computer Science. Iam Currently working as a frontend developer at Technoidentity.</p>
+    <h1>Music</h1>
+    <div class="container">
+        <div class="post-container">
+            <img class="post-image"  src="https://cdn.feedingtrends.com/article-images/1_705a35d702.jpg" />
+            <p class="post-paragraph">"Tum Hi Ho" (transl. You are the one) is an Indian Hindi-language romantic song from the 2013 Indian movie Aashiqui 2, 
+                sung by Arijit Singh. It was composed and written by Mithoon.[1][2] Picturised on Aditya Roy Kapur and Shraddha Kapoor, it was released by Bhushan Kumar 
+                under T-Series, leading to its popularity and remaining in the top 10 of Planet Bollywood for eight weeks and capturing the first spot on the 
+                Top 20 of MTV India for seven weeks. It has garned 700+ million views on YouTube.</p>
+            <div class="post-detail">
+                <h4>Author : Arijit Singh</h4>
+                <h4>Posted on :- 07/03/2023</h4>
+            </div>
+        </div>
+        <div class="post-container">
+            <img class="post-image"  src="https://c.saavncdn.com/793/Ae-Dil-Hai-Mushkil-Title-Track-From-Ae-Dil-Hai-Mushkil-Hindi-2016-500x500.jpg" />
+            <p class="post-paragraph">Ae Dil Hai Mushkil released worldwide on 28 October 2016 coinciding with the festival of Diwali.
+                The film's soundtrack composed by Pritam was an instant blockbuster, thus enhancing its hype, with lyrics written by Amitabh Bhattacharya and songs sung by Arijit Singh. </p>
+            <div class="post-detail">
+                <h4>Author : Arijit Singh</h4>
+                <h4>Posted on :- 02/01/2023</h4>
+            </div>
+        </div>
+        <div class="post-container">
+            <img class="post-image"  src="https://i.ytimg.com/vi/v9mZ5z4GNsE/maxresdefault.jpg" />
+            <p class="post-paragraph"> Desh Mere is the Brand New Patriotic Hindi Song from the movie “Bhuj: The Pride of India“. Arijit Singh has sung this Latest Hindi Song, while Manoj Muntashir has written the Desh Mere 
+                Song Lyrics, with Music produced by Arko, and this Brand New Music Video is directed by Abhishek Dudhaiya.</p>
+            <div class="post-detail">
+                <h4>Author : Arijit Singh</h4>
+                <h4>Posted on :- 22/12/2022</h4>
+            </div>
+        </div>
     </div>
-    <div>
-        <h1>Blog Post</h1>
-        <h3>Lorem, ipsum dolor</h3>
-        <h4>Khaja</h4>
-        <h4>April 17</h4>
-        <img src="data:image/jpeg;base64,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" alt="cat12"
+    <div class="container">
+        <div class="post-container">
+            <img class="post-image"  src="https://cdn.feedingtrends.com/article-images/3_f00aa8921f.jpg" />
+            <p class="post-paragraph">Khairiyat Lyrics in Hindi from movie Chhichhore sung by Arijit Singh. 
+                The song is written by Amitabh Bhattacharya and composed by Pritam. Starring Sushant Singh Rajput, Shraddha Kapoor, Varun Sharma, Prateik Babbar.</p>
+            <div class="post-detail">
+                <h4>Author : Arijit Singh</h4>
+                <h4>Posted on :- 07/10/2022</h4>
+            </div>
+        </div>
+        <div class="post-container">
+            <img class="post-image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNTeatLgFUAWFo-wgk0AW2OkflUa6UUnegMg&usqp=CAU" />
+            <p class="post-paragraph">Kesariya is a song by Indian singer-composer Pritam, featuring singer Arijit Singh. Written by Amitabh Bhattacharya and 
+                produced by Pritam, it was released as a single on July 17, 2022 via Sony Music India, and was featured on the soundtrack album of the 2022 Indian film Brahmāstra: Part One – Shiva </p>
+            <div class="post-detail">
+                <h4>Author : Arijit Singh</h4>
+                <h4>Posted on :- 15/07/2022</h4>
+            </div>
+        </div>
+        <div class="post-container">
+            <img class="post-image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrUt9vv6oMhv_-n0rrvhxAr1EXix0SS41Mw&usqp=CAU" />
+            <p class="post-paragraph"> Tujhe Kitna Chahne Lage  (transl. "I've started to love you a lot") is a Hindi ballad from the soundtrack album for the 2019 film Kabir Singh.
+                The song was written and composed by Mithoon, and is sung by Arijit Singh.[2] The film depicts a surgeon who descends into alcoholism and a path of self-destruction 
+                after his lover marries someone else. </p>
+            <div class="post-detail">
+                <h4>Author : Arijit Singh</h4>
+                <h4>Posted on :- 11/06/2022</h4>
+            </div>
+        </div>
     </div>
-    <div>
-        <h1>Blog Post</h1>
-        <h3>Lorem, ipsum dolor</h3>
-        <h4>Khaja</h4>
-        <h4>July 26</h4>
-        <img src="https://imagesvibe.com/wp-content/uploads/2023/05/Cute-Cat-Images14.jpg" alt="cat3"
-    </div>
+    
 </body>
 </html>
