@@ -1,0 +1,109 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+  text-align: center;
+ 
+ 
+}
+.news-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 650;
+    color: #000000;
+}
+.nav{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.links{
+    font-family: Arial;
+    font-size: 18px;
+    color: grey;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: #000000;
+}
+
+.story-container{
+    border: 2px solid black;
+    border-top: none;
+    display: grid;
+    width: 80%;
+    grid-template-areas: 
+    "story-1 story-2 story-3"
+    "story-4 story-5 story-5";
+    align-self: center;
+}
+
+
+.story1{
+    
+    grid-area: story-1;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story2{
+    
+    grid-area: story-2;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.image{
+    height: 60%;
+    width: 65%;
+}
+.story3{
+    
+    grid-area: story-3;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story4{
+    
+    grid-area: story-4;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story5{
+    grid-area: story-5;
+    border-left: 2px solid black;
+    padding: 8px;
+}
+
