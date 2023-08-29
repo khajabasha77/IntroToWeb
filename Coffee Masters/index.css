@@ -1,0 +1,254 @@
+*{
+    border: 0;
+    margin: 0;
+    font-size: 'Open Sans', sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+
+}
+.navbar{
+    background-color: #43281c;
+    height: 8%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-image{
+  height: 22px;
+  width: 25px;
+  align-self: center;
+  padding: 5px;
+}
+.nav-heading{
+font-size: 27px;
+font-weight: 550;
+color:#DDB892;
+}
+
+.box-1{
+    grid-area: b-1;
+    background-color: #eee1d5;
+    height: max-content;
+    width: 46vw;
+    padding: 10px;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+
+.heading{
+    color: #985A2D;
+    font-size: 1rem;
+    font-weight: 450;
+    padding-left: 10px;
+    padding-bottom: 1rem;
+}
+.items-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 20px;
+    
+}
+.item{
+    display: flex;
+    padding-left:6px ;
+    /* border: 2px solid red; */
+}
+.item-type{
+    color: #885a2d;
+    padding-bottom: 6px;
+}
+.quantity{
+    padding-right: 12px;
+    font-size: 18px;
+    color: #43281c;
+}
+p{
+    color: #B0896B;
+}
+
+hr{
+    color: black;
+    border-bottom: 2.5px solid #DDB892;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 8px;
+}
+.payment-order-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 6px;
+    height: max-content;
+    gap: 0.5rem;
+}
+
+.box-2{
+    background-color: #eee1d5;
+    height: max-content;
+    width: 45vw;
+    padding: 10px;
+    border-radius: 12px;
+    padding-bottom: 1rem;
+   
+}
+.box-3{
+    background-color: #eee1d5;
+    height: max-content;
+    width: 45vw;
+    padding: 10px;
+    padding-bottom: 1rem;
+    border-radius: 12px;
+}
+.label-group{
+    position: relative;
+    display: inline-block;
+}
+.label-1{
+    color: #985A2D;
+    background-color: #eee1d5;
+    font-size: 14px;
+    position: absolute;
+    left: 25px;
+    top: -3px;
+    padding: 0 2px;
+   
+}
+
+.input-1{
+    height: 1.5em;
+    width: 41vw;
+    border: 2px solid #885A2D;
+    border-radius: 22px;
+    background-color: #eee1d5;
+    padding: 8px;
+   margin: 10px;
+    /* border-radius: 5px; */
+}
+
+.cvv-input{
+    height: 1.5em;
+    width: 10rem;
+    border: 2px solid #885A2D;
+    border-radius: 22px;
+    background-color: #eee1d5;
+    padding: 8px;
+    margin: 10px;
+}
+
+.total-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    padding-top: 2rem;
+    
+    
+}
+.sub-total{
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+    padding-bottom: 1.5rem;
+    
+}
+.total-paragraph{
+    color: #000000;  
+    font-size: 18px; 
+    
+    
+}
+.price{
+    color: #000000;  
+    font-size: 18px; 
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    font-size: 18px;
+    height: 2.5rem;
+    width: 88%;
+    border-radius: 3rem;
+    background-color: #DEB993;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width : 280px){
+    .item{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 6px;
+        align-items: center;
+    }
+    .items-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        padding-right: 20px;
+        
+    }
+
+
+}
+@media screen and (max-width : 480px){
+   
+    .navbar{
+        width: auto;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width:95vw;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .box-1{
+        width: auto;
+        height: auto;
+        
+    }
+    .box-2{
+        width: auto;
+        margin-top: 12px;
+    }
+    .box-3{
+        width: auto;
+    }
+    .input-1{
+        width: 67vw;
+    }
+    .cvv-input{
+        width: 60vw;
+    }
+
+
+    .total-section{
+        width: 80vw;
+        margin: auto;
+        
+    }
+    .sub-total{
+        width: 10rem;
+    }
+    .price{
+        padding-right: 1rem;
+    }
+    .btn{
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
